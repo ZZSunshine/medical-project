@@ -2,8 +2,8 @@
 //  SystemMessageModel.m
 //  EDKProj
 //
-//  Created by wuliang on 16/3/29.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
+//  Created by  on 16/3/29.
+//  Copyright © 2016年 晓飞. All rights reserved.
 //
 
 #import "SystemMessageModel.h"

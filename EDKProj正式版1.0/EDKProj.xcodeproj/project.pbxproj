@@ -838,7 +838,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		480403491CABD05800642FC5 /* wuLiangModel */ = {
+		480403491CABD05800642FC5 /* ZZFModel */ = {
 			isa = PBXGroup;
 			children = (
 				4804034A1CABD06500642FC5 /* EDKGuideCell.h */,
@@ -852,6 +852,7 @@
 				480403521CABD06500642FC5 /* SystemMessageModel.h */,
 				480403531CABD06500642FC5 /* SystemMessageModel.m */,
 			);
+			name = ZZFModel;
 			path = wuLiangModel;
 			sourceTree = "<group>";
 		};
@@ -1336,7 +1337,7 @@
 		48EE13581CA546DB004A70E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				480403491CABD05800642FC5 /* wuLiangModel */,
+				480403491CABD05800642FC5 /* ZZFModel */,
 				48D7260D1CAB5F3500C803A1 /* EDKHostral */,
 				48C9E7AA1CA6D3B5000923A1 /* PersonCondition */,
 				48FBBB9F1CA6835E00266061 /* Common */,

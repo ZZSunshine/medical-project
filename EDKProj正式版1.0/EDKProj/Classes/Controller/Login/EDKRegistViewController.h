@@ -2,9 +2,7 @@
 //  EDKRegistViewController.h
 //  EDKProj
 //
-//  Created by wuliang on 16/3/26.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
+//  Created by xiaofei on 16/3/26.
 
 #import <UIKit/UIKit.h>
 

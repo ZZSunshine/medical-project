@@ -3,7 +3,7 @@
 //  EDKProj
 //
 //  Created by 晓飞 on 16/3/31.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
+//  Copyright © 2016年 晓飞. All rights reserved.
 //
 
 #import "EDKweatherView.h"

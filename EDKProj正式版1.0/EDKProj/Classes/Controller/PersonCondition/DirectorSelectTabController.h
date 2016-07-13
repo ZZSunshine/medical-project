@@ -2,9 +2,7 @@
 //  DirectorSelectTabController.h
 //  EDKProj
 //
-//  Created by 杨文磊Mac on 16/3/26.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
+//  Created by 晓飞 on 15/1/6.
 
 #import <UIKit/UIKit.h>
 

@@ -2,9 +2,8 @@
 //  registerController.h
 //  EDKProj
 //
-//  Created by XUYIBIN on 16/3/27.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
+//  Created by 晓飞 on 16/3/28.
+
 
 #import <UIKit/UIKit.h>
 

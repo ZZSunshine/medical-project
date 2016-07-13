@@ -2,9 +2,7 @@
 //  CommonFlowLayout.m
 //  EDKProj
 //
-//  Created by 杨文磊Mac on 16/3/27.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
+//  Created by 晓飞 on 15/1/6.
 
 #import "CommonFlowLayout.h"
 

@@ -3,8 +3,6 @@
 //  EDKProj
 //
 //  Created by 晓飞 on 16/3/29.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
 
 #import "EDKDiseaseController.h"
 #import "EDKBureausView.h"

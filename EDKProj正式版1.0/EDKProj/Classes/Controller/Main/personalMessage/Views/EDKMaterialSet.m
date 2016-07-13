@@ -2,8 +2,8 @@
 //  materialSet.m
 //  EDKProj
 //
-//  Created by XUYIBIN on 16/3/26.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
+//  Created by 晓飞 on 16/3/26.
+//  Copyright © 2016年 晓飞. All rights reserved.
 //
 
 #import "EDKMaterialSet.h"

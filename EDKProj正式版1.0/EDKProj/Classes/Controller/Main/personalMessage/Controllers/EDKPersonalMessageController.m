@@ -2,9 +2,8 @@
 //  PersonalMessageController.m
 //  EDKProj
 //
-//  Created by XUYIBIN on 16/3/26.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
+//  Created by 晓飞 on 16/3/28.v
+
 #define kWIDTH [UIScreen mainScreen].bounds.size.width
 #import "EDKPersonalMessageController.h"
 #import "EDKhomePageHeaderView.h"

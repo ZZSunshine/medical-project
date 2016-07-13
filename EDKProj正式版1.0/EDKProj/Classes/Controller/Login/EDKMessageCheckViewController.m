@@ -2,9 +2,6 @@
 //  EDKMessageCheckViewController.m
 //  EDKProj
 //
-//  Created by wuliang on 16/3/27.
-//  Copyright © 2016年 杨文磊Mac. All rights reserved.
-//
 
 #import "EDKMessageCheckViewController.h"
 #import "UIColor+Hex.h"
