@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" rowHeight="86" id="MlN-2I-RK8" customClass="EDKRegisterCells">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="86"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MlN-2I-RK8" id="x16-28-i04">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iwt-qi-vDS">
+                        <rect key="frame" x="5" y="5" width="365" height="1"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="b2B-Wb-5Ue"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ie-dO-f55">
+                        <rect key="frame" x="5" y="79" width="365" height="1"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Ygj-9o-nFz"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9v-QX-CuE">
+                        <rect key="frame" x="5" y="5" width="1" height="75"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="apI-DQ-4na"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xNd-0X-2SF">
+                        <rect key="frame" x="369" y="6" width="1" height="73"/>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="IAZ-Ns-xw9"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京协和医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ik9-0Q-bIe">
+                        <rect key="frame" x="11" y="16" width="102" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主任医师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obg-oM-LsR">
+                        <rect key="frame" x="16" y="48" width="68" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="就诊时间：2015-06-01 上午" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7CM-oD-IFp">
+                        <rect key="frame" x="184" y="52" width="180" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="xNd-0X-2SF" secondAttribute="trailing" constant="5" id="39M-la-bHk"/>
+                    <constraint firstItem="Iwt-qi-vDS" firstAttribute="top" secondItem="x16-28-i04" secondAttribute="top" constant="5" id="61a-WF-ttf"/>
+                    <constraint firstItem="xNd-0X-2SF" firstAttribute="top" secondItem="Iwt-qi-vDS" secondAttribute="bottom" id="6tL-de-s9t"/>
+                    <constraint firstItem="9Ie-dO-f55" firstAttribute="top" secondItem="obg-oM-LsR" secondAttribute="bottom" constant="10" id="76C-Gb-rXe"/>
+                    <constraint firstItem="obg-oM-LsR" firstAttribute="leading" secondItem="n9v-QX-CuE" secondAttribute="trailing" constant="10" id="BPp-L1-jly"/>
+                    <constraint firstItem="xNd-0X-2SF" firstAttribute="leading" secondItem="7CM-oD-IFp" secondAttribute="trailing" constant="5" id="BZ0-7W-uCS"/>
+                    <constraint firstAttribute="trailing" secondItem="Iwt-qi-vDS" secondAttribute="trailing" constant="5" id="ERa-3D-ToZ"/>
+                    <constraint firstItem="9Ie-dO-f55" firstAttribute="top" secondItem="xNd-0X-2SF" secondAttribute="bottom" id="HXG-BQ-Kuz"/>
+                    <constraint firstItem="ik9-0Q-bIe" firstAttribute="leading" secondItem="n9v-QX-CuE" secondAttribute="trailing" constant="5" id="LyI-sQ-41F"/>
+                    <constraint firstItem="n9v-QX-CuE" firstAttribute="top" secondItem="x16-28-i04" secondAttribute="top" constant="5" id="QvN-cz-yas"/>
+                    <constraint firstAttribute="trailing" secondItem="9Ie-dO-f55" secondAttribute="trailing" constant="5" id="TFT-Cd-BEf"/>
+                    <constraint firstItem="Iwt-qi-vDS" firstAttribute="leading" secondItem="x16-28-i04" secondAttribute="leading" constant="5" id="Tvy-NP-qXN"/>
+                    <constraint firstAttribute="bottom" secondItem="n9v-QX-CuE" secondAttribute="bottom" constant="5" id="Ucd-Sp-tFs"/>
+                    <constraint firstItem="n9v-QX-CuE" firstAttribute="leading" secondItem="x16-28-i04" secondAttribute="leading" constant="5" id="WNO-CH-cY8"/>
+                    <constraint firstItem="9Ie-dO-f55" firstAttribute="leading" secondItem="x16-28-i04" secondAttribute="leading" constant="5" id="dgg-3o-JdS"/>
+                    <constraint firstItem="ik9-0Q-bIe" firstAttribute="top" secondItem="Iwt-qi-vDS" secondAttribute="bottom" constant="10" id="ijJ-04-mXv"/>
+                    <constraint firstItem="9Ie-dO-f55" firstAttribute="top" secondItem="7CM-oD-IFp" secondAttribute="bottom" constant="10" id="nFn-f9-Hto"/>
+                    <constraint firstAttribute="bottom" secondItem="9Ie-dO-f55" secondAttribute="bottom" constant="5" id="rEL-N8-TOF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="509.5" y="284"/>
+        </tableViewCell>
+    </objects>
+</document>

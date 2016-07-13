@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fMV-JW-9eY" customClass="EDKCollectCell01">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noPicture" translatesAutoresizingMaskIntoConstraints="NO" id="29v-Aw-4NN">
+                    <rect key="frame" x="10" y="10" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="80O-KK-XWe"/>
+                        <constraint firstAttribute="width" constant="50" id="KaC-Vy-faa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京协和医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4o2-aq-C7N">
+                    <rect key="frame" x="70" y="10" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三级甲等医院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ze5-hQ-Lm3">
+                    <rect key="frame" x="192" y="10" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京市东城区帅府园一号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4g-zi-nEW">
+                    <rect key="frame" x="85" y="42" width="165" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="定位" translatesAutoresizingMaskIntoConstraints="NO" id="0Qw-oF-zIq">
+                    <rect key="frame" x="70" y="41" width="13" height="19"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="19" id="Uxa-XS-N8z"/>
+                        <constraint firstAttribute="width" constant="13" id="kzQ-g1-rzO"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NoM-Gq-PqW">
+                    <rect key="frame" x="260" y="42" width="28" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="右拉伸箭头绿色" translatesAutoresizingMaskIntoConstraints="NO" id="LAI-2O-qqG">
+                    <rect key="frame" x="330" y="20" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="COY-3x-r61"/>
+                        <constraint firstAttribute="width" constant="30" id="JoC-Og-QhC"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="29v-Aw-4NN" firstAttribute="leading" secondItem="fMV-JW-9eY" secondAttribute="leading" constant="10" id="4zd-0X-ILa"/>
+                <constraint firstItem="ze5-hQ-Lm3" firstAttribute="top" secondItem="fMV-JW-9eY" secondAttribute="top" constant="10" id="5B9-y6-NjC"/>
+                <constraint firstItem="29v-Aw-4NN" firstAttribute="top" secondItem="fMV-JW-9eY" secondAttribute="top" constant="10" id="9Ke-AQ-J8e"/>
+                <constraint firstItem="h4g-zi-nEW" firstAttribute="leading" secondItem="0Qw-oF-zIq" secondAttribute="trailing" constant="2" id="LnJ-S9-9rI"/>
+                <constraint firstItem="NoM-Gq-PqW" firstAttribute="bottom" secondItem="h4g-zi-nEW" secondAttribute="bottom" id="LtG-h0-K05"/>
+                <constraint firstItem="0Qw-oF-zIq" firstAttribute="bottom" secondItem="29v-Aw-4NN" secondAttribute="bottom" id="MYF-5f-6KU"/>
+                <constraint firstItem="NoM-Gq-PqW" firstAttribute="leading" secondItem="h4g-zi-nEW" secondAttribute="trailing" constant="10" id="OAJ-WS-Gvc"/>
+                <constraint firstItem="h4g-zi-nEW" firstAttribute="bottom" secondItem="0Qw-oF-zIq" secondAttribute="bottom" id="ZcU-uI-fgw"/>
+                <constraint firstItem="4o2-aq-C7N" firstAttribute="top" secondItem="fMV-JW-9eY" secondAttribute="top" constant="10" id="bwE-ed-0ja"/>
+                <constraint firstItem="0Qw-oF-zIq" firstAttribute="leading" secondItem="29v-Aw-4NN" secondAttribute="trailing" constant="10" id="o0a-Qa-YL0"/>
+                <constraint firstItem="ze5-hQ-Lm3" firstAttribute="leading" secondItem="4o2-aq-C7N" secondAttribute="trailing" constant="20" id="oeJ-xb-jKn"/>
+                <constraint firstItem="LAI-2O-qqG" firstAttribute="top" secondItem="fMV-JW-9eY" secondAttribute="top" constant="20" id="saN-zm-f8J"/>
+                <constraint firstItem="4o2-aq-C7N" firstAttribute="leading" secondItem="29v-Aw-4NN" secondAttribute="trailing" constant="10" id="udg-U0-eZA"/>
+                <constraint firstAttribute="trailing" secondItem="LAI-2O-qqG" secondAttribute="trailing" constant="15" id="xRz-nL-Pwb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="298.5" y="134"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="noPicture" width="25" height="25"/>
+        <image name="右拉伸箭头绿色" width="16" height="25"/>
+        <image name="定位" width="12" height="19"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>内科</string>
+		<key>tid</key>
+		<string>1001</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>外科</string>
+		<key>tid</key>
+		<string>1002</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>耳鼻咽喉头颈科哈哈</string>
+		<key>tid</key>
+		<string>1003</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>出血性</string>
+		<key>tid</key>
+		<string>1004</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>肿瘤科</string>
+		<key>tid</key>
+		<string>1005</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>皮肤性病科</string>
+		<key>tid</key>
+		<string>1006</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>眼科</string>
+		<key>tid</key>
+		<string>1007</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>妇科</string>
+		<key>tid</key>
+		<string>1008</string>
+	</dict>
+</array>
+</plist>

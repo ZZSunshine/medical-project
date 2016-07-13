@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="V27-52-OqT">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Already Submit Check-->
+        <scene sceneID="93E-R5-ctB">
+            <objects>
+                <viewController id="V27-52-OqT" customClass="EDKAlreadySubmitCheck" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ilE-JP-wbo"/>
+                        <viewControllerLayoutGuide type="bottom" id="tio-Cs-GR4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o15-5R-YN1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="笑脸" translatesAutoresizingMaskIntoConstraints="NO" id="pJa-cV-KkR">
+                                <rect key="frame" x="138" y="137" width="98" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="fyw-uI-WLT"/>
+                                    <constraint firstAttribute="height" constant="98" id="svP-ap-iC7"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJx-5i-Lee">
+                                <rect key="frame" x="76" y="268" width="240" height="58"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="Juf-RD-1xP"/>
+                                </constraints>
+                                <string key="text">               资料提交成功 
+    医生将在24小时内给您回复                             </string>
+                                <color key="textColor" red="0.27764902359999999" green="0.28388067220000002" blue="0.30257561830000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfp-Lq-cnv">
+                                <rect key="frame" x="208" y="373" width="147" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="N5E-ZP-qzm"/>
+                                    <constraint firstAttribute="width" constant="147" id="a5i-tT-vRA"/>
+                                </constraints>
+                                <state key="normal" title="个人中心" backgroundImage="递交反馈按钮绿色">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="递交反馈按钮灰色"/>
+                                <connections>
+                                    <action selector="clickBackToPersonalCenter:" destination="V27-52-OqT" eventType="touchUpInside" id="T3P-lC-i4C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhe-X7-QVi">
+                                <rect key="frame" x="20" y="373" width="148" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="ZV4-F2-BhR"/>
+                                    <constraint firstAttribute="height" constant="44" id="hoY-Iu-KLN"/>
+                                </constraints>
+                                <state key="normal" title="返回首页" backgroundImage="递交反馈按钮绿色">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="递交反馈按钮灰色"/>
+                                <connections>
+                                    <action selector="clickToBackToHomePage:" destination="V27-52-OqT" eventType="touchUpInside" id="axm-cT-WHj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pJa-cV-KkR" firstAttribute="centerX" secondItem="o15-5R-YN1" secondAttribute="centerX" id="DIo-cy-Jhr"/>
+                            <constraint firstItem="yhe-X7-QVi" firstAttribute="leading" secondItem="o15-5R-YN1" secondAttribute="leading" constant="20" id="Jpn-JG-QlP"/>
+                            <constraint firstAttribute="trailing" secondItem="IJx-5i-Lee" secondAttribute="trailing" constant="59" id="V6C-Ba-2bd"/>
+                            <constraint firstAttribute="trailing" secondItem="Nfp-Lq-cnv" secondAttribute="trailing" constant="20" id="e3b-ZU-6NW"/>
+                            <constraint firstItem="IJx-5i-Lee" firstAttribute="top" secondItem="pJa-cV-KkR" secondAttribute="bottom" constant="33" id="kZF-bz-IvF"/>
+                            <constraint firstItem="Nfp-Lq-cnv" firstAttribute="top" secondItem="IJx-5i-Lee" secondAttribute="bottom" constant="47" id="kib-0P-NUe"/>
+                            <constraint firstItem="IJx-5i-Lee" firstAttribute="leading" secondItem="o15-5R-YN1" secondAttribute="leading" constant="76" id="psf-sJ-VkB"/>
+                            <constraint firstItem="yhe-X7-QVi" firstAttribute="top" secondItem="IJx-5i-Lee" secondAttribute="bottom" constant="47" id="qNW-7q-jtG"/>
+                            <constraint firstItem="pJa-cV-KkR" firstAttribute="top" secondItem="o15-5R-YN1" secondAttribute="top" constant="137" id="wFt-oo-hU0"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2g-qP-twJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180.5" y="312.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="笑脸" width="49" height="49"/>
+        <image name="递交反馈按钮灰色" width="343" height="38"/>
+        <image name="递交反馈按钮绿色" width="1029" height="114"/>
+    </resources>
+</document>

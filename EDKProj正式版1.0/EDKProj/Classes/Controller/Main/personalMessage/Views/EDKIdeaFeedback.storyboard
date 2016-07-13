@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="YoA-gn-GTc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Idea Feedback Controller-->
+        <scene sceneID="ibH-Bk-aP5">
+            <objects>
+                <viewController id="YoA-gn-GTc" customClass="EDKIdeaFeedbackController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nti-I3-uSa"/>
+                        <viewControllerLayoutGuide type="bottom" id="yJL-jR-YD5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O3R-7S-12U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HTn-TD-RiO">
+                                <rect key="frame" x="15" y="25" width="345" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="QLW-9y-6UM"/>
+                                </constraints>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入您遇到的问题：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0l6-hw-E12">
+                                <rect key="frame" x="25" y="40" width="170" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您还可以输入140字" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0d-VL-Rik">
+                                <rect key="frame" x="207" y="249" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎联系我们：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuP-6B-AH5">
+                                <rect key="frame" x="25" y="311" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzW-3K-bdB">
+                                <rect key="frame" x="145" y="306" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="mgu-ak-bhv"/>
+                                    <constraint firstAttribute="height" constant="30" id="s8c-0p-XLP"/>
+                                </constraints>
+                                <state key="normal" title="电话联系"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KcD-mz-D2j">
+                                <rect key="frame" x="20" y="364" width="335" height="30"/>
+                                <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bRc-tK-nfg"/>
+                                </constraints>
+                                <state key="normal" title="提交反馈">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="电话" translatesAutoresizingMaskIntoConstraints="NO" id="XBe-Bz-4Ck">
+                                <rect key="frame" x="141" y="313" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="6z0-Pk-TQt"/>
+                                    <constraint firstAttribute="height" constant="15" id="GlV-b1-0qk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nzW-3K-bdB" firstAttribute="top" secondItem="HTn-TD-RiO" secondAttribute="bottom" constant="31" id="KcW-jW-D7Z"/>
+                            <constraint firstItem="LuP-6B-AH5" firstAttribute="top" secondItem="HTn-TD-RiO" secondAttribute="bottom" constant="36" id="NFQ-XO-dSU"/>
+                            <constraint firstItem="XBe-Bz-4Ck" firstAttribute="top" secondItem="HTn-TD-RiO" secondAttribute="bottom" constant="38" id="Nwt-vu-32L"/>
+                            <constraint firstAttribute="trailing" secondItem="HTn-TD-RiO" secondAttribute="trailing" constant="15" id="RN7-2P-LWX"/>
+                            <constraint firstAttribute="trailing" secondItem="KcD-mz-D2j" secondAttribute="trailing" constant="20" id="Rn5-I7-xsF"/>
+                            <constraint firstItem="HTn-TD-RiO" firstAttribute="leading" secondItem="O3R-7S-12U" secondAttribute="leading" constant="15" id="Sdu-KQ-DLh"/>
+                            <constraint firstItem="LuP-6B-AH5" firstAttribute="leading" secondItem="O3R-7S-12U" secondAttribute="leading" constant="25" id="Xx2-ci-KAg"/>
+                            <constraint firstItem="0l6-hw-E12" firstAttribute="top" secondItem="Nti-I3-uSa" secondAttribute="bottom" constant="20" id="YlL-TZ-J3c"/>
+                            <constraint firstItem="KcD-mz-D2j" firstAttribute="leading" secondItem="O3R-7S-12U" secondAttribute="leading" constant="20" id="dsK-hG-7DC"/>
+                            <constraint firstAttribute="trailing" secondItem="k0d-VL-Rik" secondAttribute="trailing" constant="20" id="fA9-fu-P10"/>
+                            <constraint firstItem="0l6-hw-E12" firstAttribute="leading" secondItem="O3R-7S-12U" secondAttribute="leading" constant="25" id="i2U-yb-fup"/>
+                            <constraint firstItem="k0d-VL-Rik" firstAttribute="top" secondItem="Nti-I3-uSa" secondAttribute="bottom" constant="229" id="jUu-yO-gQ1"/>
+                            <constraint firstItem="XBe-Bz-4Ck" firstAttribute="leading" secondItem="O3R-7S-12U" secondAttribute="leading" constant="141" id="kws-lb-gtY"/>
+                            <constraint firstItem="KcD-mz-D2j" firstAttribute="top" secondItem="nzW-3K-bdB" secondAttribute="bottom" constant="28" id="lSM-oA-OWF"/>
+                            <constraint firstItem="nzW-3K-bdB" firstAttribute="leading" secondItem="LuP-6B-AH5" secondAttribute="trailing" constant="1" id="opN-9V-hGk"/>
+                            <constraint firstItem="HTn-TD-RiO" firstAttribute="top" secondItem="Nti-I3-uSa" secondAttribute="bottom" constant="5" id="x20-70-hWR"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="okBtn" destination="KcD-mz-D2j" id="ynP-uq-hX9"/>
+                        <outlet property="tellPhone" destination="nzW-3K-bdB" id="4Pp-6U-o9j"/>
+                        <outlet property="testView" destination="HTn-TD-RiO" id="55S-sb-Pfb"/>
+                        <outlet property="textLabel" destination="k0d-VL-Rik" id="EfA-Qg-lK7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Hr-BI-eZp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="518.5" y="384.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="电话" width="13" height="9"/>
+    </resources>
+</document>

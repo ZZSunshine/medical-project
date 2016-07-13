@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="99Y-2w-ufS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Commit Controller-->
+        <scene sceneID="XO7-ek-Y8p">
+            <objects>
+                <viewController id="99Y-2w-ufS" customClass="EDKCommitController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Y6-lg-lq9"/>
+                        <viewControllerLayoutGuide type="bottom" id="rne-tS-dGH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yby-pb-MX5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="笑脸" translatesAutoresizingMaskIntoConstraints="NO" id="9wr-Kr-pOH">
+                                <rect key="frame" x="230" y="91" width="140" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Od0-Cw-Dcj"/>
+                                    <constraint firstAttribute="height" constant="112" id="k72-tj-GrQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="预约成功" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLe-D8-UTw">
+                                <rect key="frame" x="230" y="231" width="140" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bea-PX-Evw">
+                                <rect key="frame" x="20" y="289" width="560" height="82"/>
+                                <string key="text">您已成功预约北京市仁和医院泌尿一科门诊的主任医师,预约识别码是:【20845200】,就诊日期是2015-07-24上午,取号时间上午10：00以前取号,取号地点:医院11号窗口挂号取号。【温馨提示】请点击 q.114menhu.com 安装114客户端，实现电话、网络同时挂号，提高成功率</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3CE-Y3-2Or">
+                                <rect key="frame" x="20" y="520" width="150" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="2gN-3U-775"/>
+                                    <constraint firstAttribute="height" constant="30" id="TfW-PR-zWB"/>
+                                </constraints>
+                                <state key="normal" title="返回首页" backgroundImage="递交反馈按钮绿色">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="returnPageBtn:" destination="99Y-2w-ufS" eventType="touchUpInside" id="ZHw-k6-NUt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ez-bz-smk">
+                                <rect key="frame" x="430" y="520" width="150" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="个人中心" backgroundImage="递交反馈按钮绿色">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="personCenterBtn:" destination="99Y-2w-ufS" eventType="touchUpInside" id="58F-kP-CnR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rLe-D8-UTw" firstAttribute="top" secondItem="9wr-Kr-pOH" secondAttribute="bottom" constant="28" id="6Cg-EE-Yde"/>
+                            <constraint firstItem="3CE-Y3-2Or" firstAttribute="leading" secondItem="Yby-pb-MX5" secondAttribute="leading" constant="20" id="6js-q5-Fl2"/>
+                            <constraint firstItem="bea-PX-Evw" firstAttribute="leading" secondItem="Yby-pb-MX5" secondAttribute="leading" constant="20" id="EZl-jb-nTa"/>
+                            <constraint firstItem="4Ez-bz-smk" firstAttribute="width" secondItem="3CE-Y3-2Or" secondAttribute="width" id="IUx-d2-j97"/>
+                            <constraint firstItem="4Ez-bz-smk" firstAttribute="height" secondItem="3CE-Y3-2Or" secondAttribute="height" id="Lym-ZC-koY"/>
+                            <constraint firstAttribute="trailing" secondItem="bea-PX-Evw" secondAttribute="trailing" constant="20" id="NXN-a4-hac"/>
+                            <constraint firstAttribute="trailing" secondItem="4Ez-bz-smk" secondAttribute="trailing" constant="20" id="SG5-ae-zpq"/>
+                            <constraint firstItem="rne-tS-dGH" firstAttribute="top" secondItem="4Ez-bz-smk" secondAttribute="bottom" constant="50" id="Uyh-xB-4bW"/>
+                            <constraint firstItem="rLe-D8-UTw" firstAttribute="leading" secondItem="9wr-Kr-pOH" secondAttribute="leading" id="YX8-6Q-DLV"/>
+                            <constraint firstItem="9wr-Kr-pOH" firstAttribute="top" secondItem="6Y6-lg-lq9" secondAttribute="bottom" constant="71" id="aFW-Mk-4R1"/>
+                            <constraint firstItem="bea-PX-Evw" firstAttribute="top" secondItem="rLe-D8-UTw" secondAttribute="bottom" constant="31" id="lKh-7N-UUa"/>
+                            <constraint firstItem="rLe-D8-UTw" firstAttribute="trailing" secondItem="9wr-Kr-pOH" secondAttribute="trailing" id="s96-RA-hJt"/>
+                            <constraint firstItem="rne-tS-dGH" firstAttribute="top" secondItem="3CE-Y3-2Or" secondAttribute="bottom" constant="50" id="sne-mZ-og9"/>
+                            <constraint firstItem="9wr-Kr-pOH" firstAttribute="centerX" secondItem="Yby-pb-MX5" secondAttribute="centerX" id="w0L-rS-XSU"/>
+                            <constraint firstItem="4Ez-bz-smk" firstAttribute="top" secondItem="3CE-Y3-2Or" secondAttribute="top" id="yzp-pa-3Np"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XH-H7-EyW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406" y="347"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="笑脸" width="98" height="98"/>
+        <image name="递交反馈按钮绿色" width="343" height="38"/>
+    </resources>
+</document>

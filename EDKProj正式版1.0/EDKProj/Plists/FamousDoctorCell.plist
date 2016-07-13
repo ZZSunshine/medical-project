@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ci1_id</key>
+		<integer>1</integer>
+		<key>ci1_icon</key>
+		<string>血液病</string>
+		<key>ci1_name</key>
+		<string>血液病</string>
+	</dict>
+	<dict>
+		<key>ci1_id</key>
+		<integer>2</integer>
+		<key>ci1_icon</key>
+		<string>肿瘤</string>
+		<key>ci1_name</key>
+		<string>肿瘤</string>
+	</dict>
+	<dict>
+		<key>ci1_id</key>
+		<integer>3</integer>
+		<key>ci1_icon</key>
+		<string>心血管系统</string>
+		<key>ci1_name</key>
+		<string>细血管系统</string>
+	</dict>
+	<dict>
+		<key>ci1_id</key>
+		<integer>4</integer>
+		<key>ci1_icon</key>
+		<string>神经系统</string>
+		<key>ci1_name</key>
+		<string>神经系统</string>
+	</dict>
+	<dict>
+		<key>ci1_id</key>
+		<integer>5</integer>
+		<key>ci1_icon</key>
+		<string>骨科病</string>
+		<key>ci1_name</key>
+		<string>骨科病</string>
+	</dict>
+	<dict>
+		<key>ci1_id</key>
+		<integer>6</integer>
+		<key>ci1_icon</key>
+		<string>更多</string>
+		<key>ci1_name</key>
+		<string>更多</string>
+	</dict>
+</array>
+</plist>

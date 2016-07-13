@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rcM-We-vYq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--It Present To Tab Controller-->
+        <scene sceneID="pX1-FH-sYN">
+            <objects>
+                <tableViewController id="rcM-We-vYq" customClass="GItPresentToTabController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="LT4-tH-tUm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="eMC-89-m6r">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="5MJ-3O-XTE">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5MJ-3O-XTE" id="tzW-wR-npS">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="送给王医生一面锦旗" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMZ-RV-PXQ">
+                                                    <rect key="frame" x="18" y="12" width="564" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="dMZ-RV-PXQ" firstAttribute="centerY" secondItem="tzW-wR-npS" secondAttribute="centerY" id="FhS-uB-kkb"/>
+                                                <constraint firstItem="dMZ-RV-PXQ" firstAttribute="leading" secondItem="tzW-wR-npS" secondAttribute="leadingMargin" constant="10" id="e6F-Is-Chu"/>
+                                                <constraint firstItem="dMZ-RV-PXQ" firstAttribute="centerX" secondItem="tzW-wR-npS" secondAttribute="centerX" id="xFS-qQ-cTl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="cI2-j3-Dhq">
+                                        <rect key="frame" x="0.0" y="44" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cI2-j3-Dhq" id="9zb-RE-taD">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥100,00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpQ-2B-rxo">
+                                                    <rect key="frame" x="18" y="11" width="564" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fpQ-2B-rxo" firstAttribute="centerX" secondItem="9zb-RE-taD" secondAttribute="centerX" id="Ab2-IC-wIc"/>
+                                                <constraint firstItem="fpQ-2B-rxo" firstAttribute="centerY" secondItem="9zb-RE-taD" secondAttribute="centerY" id="FGP-GT-wdf"/>
+                                                <constraint firstItem="fpQ-2B-rxo" firstAttribute="leading" secondItem="9zb-RE-taD" secondAttribute="leadingMargin" constant="10" id="JCx-ic-lp3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="WzZ-E8-Rwi">
+                                        <rect key="frame" x="0.0" y="88" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WzZ-E8-Rwi" id="wdd-nM-UDR">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择支付方式:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goy-ij-DWi">
+                                                    <rect key="frame" x="18" y="12" width="564" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="goy-ij-DWi" firstAttribute="leading" secondItem="wdd-nM-UDR" secondAttribute="leadingMargin" constant="10" id="5BL-6F-9jP"/>
+                                                <constraint firstItem="goy-ij-DWi" firstAttribute="centerX" secondItem="wdd-nM-UDR" secondAttribute="centerX" id="hIH-F4-hNp"/>
+                                                <constraint firstItem="goy-ij-DWi" firstAttribute="centerY" secondItem="wdd-nM-UDR" secondAttribute="centerY" id="oiw-W0-PgH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="T23-Ja-AkU">
+                                        <rect key="frame" x="0.0" y="132" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T23-Ja-AkU" id="rxx-8b-wyP">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alipay.png" translatesAutoresizingMaskIntoConstraints="NO" id="FyQ-jH-fwQ">
+                                                    <rect key="frame" x="18" y="11" width="21" height="21"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付宝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3Z-Eo-Qys">
+                                                    <rect key="frame" x="55" y="12" width="48" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qo1-gW-rw2">
+                                                    <rect key="frame" x="568" y="11" width="14" height="22"/>
+                                                    <state key="normal" image="NoCheck.png"/>
+                                                    <state key="selected" image="Check.png"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FyQ-jH-fwQ" firstAttribute="centerY" secondItem="rxx-8b-wyP" secondAttribute="centerY" id="VRD-4S-ggw"/>
+                                                <constraint firstAttribute="trailing" secondItem="Qo1-gW-rw2" secondAttribute="trailing" constant="18" id="aHq-dO-N8X"/>
+                                                <constraint firstItem="FyQ-jH-fwQ" firstAttribute="leading" secondItem="rxx-8b-wyP" secondAttribute="leadingMargin" constant="10" id="dfj-3n-5ki"/>
+                                                <constraint firstItem="f3Z-Eo-Qys" firstAttribute="leading" secondItem="FyQ-jH-fwQ" secondAttribute="trailing" constant="16" id="lzR-Ig-Q4q"/>
+                                                <constraint firstItem="Qo1-gW-rw2" firstAttribute="centerY" secondItem="rxx-8b-wyP" secondAttribute="centerY" id="w5W-sX-49y"/>
+                                                <constraint firstItem="f3Z-Eo-Qys" firstAttribute="centerY" secondItem="FyQ-jH-fwQ" secondAttribute="centerY" id="xm5-cm-deV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="csm-Nw-gsI">
+                                        <rect key="frame" x="0.0" y="176" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="csm-Nw-gsI" id="qpW-sy-cqg">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wechat.png" translatesAutoresizingMaskIntoConstraints="NO" id="XV5-je-7eM">
+                                                    <rect key="frame" x="18" y="11" width="21" height="21"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMW-s7-afi">
+                                                    <rect key="frame" x="55" y="12" width="32" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0M-DN-dgX">
+                                                    <rect key="frame" x="568" y="11" width="14" height="22"/>
+                                                    <state key="normal" image="NoCheck.png"/>
+                                                    <state key="selected" image="Check.png"/>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XV5-je-7eM" firstAttribute="centerY" secondItem="qpW-sy-cqg" secondAttribute="centerY" id="4Ky-E6-i3G"/>
+                                                <constraint firstItem="IMW-s7-afi" firstAttribute="centerY" secondItem="XV5-je-7eM" secondAttribute="centerY" id="O3q-55-z1d"/>
+                                                <constraint firstItem="IMW-s7-afi" firstAttribute="leading" secondItem="XV5-je-7eM" secondAttribute="trailing" constant="16" id="V6P-Q5-t8G"/>
+                                                <constraint firstItem="XV5-je-7eM" firstAttribute="leading" secondItem="qpW-sy-cqg" secondAttribute="leadingMargin" constant="10" id="cWN-x5-Hqj"/>
+                                                <constraint firstAttribute="trailing" secondItem="r0M-DN-dgX" secondAttribute="trailing" constant="18" id="mlO-yN-O1u"/>
+                                                <constraint firstItem="r0M-DN-dgX" firstAttribute="centerY" secondItem="qpW-sy-cqg" secondAttribute="centerY" id="wGB-eb-hcn"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="rcM-We-vYq" id="64a-1s-v50"/>
+                            <outlet property="delegate" destination="rcM-We-vYq" id="e6R-Ke-NG3"/>
+                        </connections>
+                    </tableView>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="btnAilPay" destination="Qo1-gW-rw2" id="lP6-Px-TNg"/>
+                        <outlet property="btnWeChatPay" destination="r0M-DN-dgX" id="RGn-nZ-yBq"/>
+                        <outlet property="lblSendDoctorName" destination="dMZ-RV-PXQ" id="TdH-Iz-uuC"/>
+                        <outlet property="lblSendFee" destination="fpQ-2B-rxo" id="bNo-i3-kxl"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nl1-xl-z8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="361"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alipay.png" width="21" height="21"/>
+        <image name="Check.png" width="14" height="14"/>
+        <image name="NoCheck.png" width="14" height="14"/>
+        <image name="Wechat.png" width="21" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GitPresentToDoctorViewController">
+            <connections>
+                <outlet property="btnConfirm" destination="Bsj-Q1-t6l" id="ecC-kK-Wbz"/>
+                <outlet property="lblGitToPersonName" destination="68q-tO-j3a" id="rJ9-cg-k6v"/>
+                <outlet property="lblImgTitle" destination="O76-7d-dhc" id="mJi-iu-MEJ"/>
+                <outlet property="lblfee" destination="yIh-Gy-Ven" id="Edk-nI-Vs7"/>
+                <outlet property="txtSendMsg" destination="Cse-iZ-Rhd" id="1op-bK-S1W"/>
+                <outlet property="view" destination="SsM-1A-gSS" id="o9j-gk-hn4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SsM-1A-gSS">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鲜花" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O76-7d-dhc">
+                    <rect key="frame" x="260" y="70" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="1CN-H6-bD3"/>
+                        <constraint firstAttribute="width" constant="80" id="3uu-6A-PGY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.66670949835526316" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIh-Gy-Ven">
+                    <rect key="frame" x="270" y="170" width="60" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cse-iZ-Rhd" customClass="EDKCustomTextView">
+                    <rect key="frame" x="180" y="212" width="240" height="80"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="4ft-e0-bqV"/>
+                        <constraint firstAttribute="width" constant="240" id="roj-Hl-bvh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsj-Q1-t6l">
+                    <rect key="frame" x="40" y="322" width="520" height="40"/>
+                    <color key="backgroundColor" red="0.53050472861842102" green="0.92434210526315785" blue="0.67724609375" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="TgK-Pz-fo2"/>
+                    </constraints>
+                    <state key="normal" title="赠  送">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnSendToDoctorClick:" destination="-1" eventType="touchUpInside" id="JTT-f4-joc"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赠送给王医生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68q-tO-j3a">
+                    <rect key="frame" x="15" y="70" width="84" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="68q-tO-j3a" firstAttribute="top" secondItem="SsM-1A-gSS" secondAttribute="top" constant="70" id="5qP-2J-Tq7"/>
+                <constraint firstItem="Bsj-Q1-t6l" firstAttribute="leading" secondItem="SsM-1A-gSS" secondAttribute="leading" constant="40" id="A4I-ME-OWT"/>
+                <constraint firstItem="Cse-iZ-Rhd" firstAttribute="centerX" secondItem="SsM-1A-gSS" secondAttribute="centerX" id="AQh-kj-kAC"/>
+                <constraint firstItem="O76-7d-dhc" firstAttribute="top" secondItem="SsM-1A-gSS" secondAttribute="top" constant="70" id="CQH-ty-QaE"/>
+                <constraint firstItem="O76-7d-dhc" firstAttribute="centerX" secondItem="SsM-1A-gSS" secondAttribute="centerX" id="Gey-8t-Sls"/>
+                <constraint firstItem="yIh-Gy-Ven" firstAttribute="centerX" secondItem="O76-7d-dhc" secondAttribute="centerX" id="Igo-DB-Tj2"/>
+                <constraint firstItem="yIh-Gy-Ven" firstAttribute="top" secondItem="O76-7d-dhc" secondAttribute="bottom" constant="20" id="Jf4-sQ-M3c"/>
+                <constraint firstItem="Bsj-Q1-t6l" firstAttribute="top" secondItem="Cse-iZ-Rhd" secondAttribute="bottom" constant="30" id="N9m-A3-Ida"/>
+                <constraint firstItem="Cse-iZ-Rhd" firstAttribute="top" secondItem="yIh-Gy-Ven" secondAttribute="bottom" constant="15" id="OON-GA-hug"/>
+                <constraint firstAttribute="trailing" secondItem="Bsj-Q1-t6l" secondAttribute="trailing" constant="40" id="isw-lJ-eaz"/>
+                <constraint firstItem="68q-tO-j3a" firstAttribute="leading" secondItem="SsM-1A-gSS" secondAttribute="leading" constant="15" id="q9q-Lg-7lv"/>
+            </constraints>
+            <point key="canvasLocation" x="367" y="-51"/>
+        </view>
+    </objects>
+</document>

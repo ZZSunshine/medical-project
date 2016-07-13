@@ -1,0 +1,60 @@
+//
+//  PrefixHeader.pch
+//  EDKProj
+//
+//  Created by 杨文磊Mac on 16/3/25.
+//  Copyright © 2016年 杨文磊Mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+//pch文件主要起到编译的作用   屏蔽C文件 ，只有在OC当中才导入。选择性导入
+
+// 如果存在宏 __OBJC__ 的时候证明是OC文件
+#ifdef __OBJC__
+
+// 作用一 用来定义函数 整个应用程序都可以使用
+#define EDKRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0  green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+#define KWidth [UIScreen mainScreen].bounds.size.width
+#define KHeight [UIScreen mainScreen].bounds.size.height
+
+//定义条件打印 宏。 当用户处于调试状态的时候可以打印信息 。发布的时候不需要打印信息
+#pragma mark - 打印宏
+#ifdef DEBUG
+
+#define EDKLog(...) NSLog(__VA_ARGS__)
+
+#else
+#define EDKLog(...)
+#endif
+
+#endif
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "ACMacros.h"
+
+
+#import "UIColor+Hex.h"
+#import "DataModel.h"
+#import "UserInfoInstance.h"
+
+#define txtBorderColor @"#CCCCCC"
+
+#define backImgColor @"#66DBC1"
+
+#define selectBtnBlackGroundColor @"#4C4A4C"
+
+#import "UIView+ExtensionSize.h"
+#import "PersonConditionNet.h"
+
+#define kUserNameKey @"usernamekey"
+#define kCredentialsNumKey @"credentialsnumkey"
+#define kPhoneNumKey @"phonenumkey"
+#define kGenderValueKey @"gendervaluekey"
+#define kEdk_Version @"EDK_version"
+#define KisLoginFlag @"EdkisLoginFlag"
+#endif /* PrefixHeader_pch */

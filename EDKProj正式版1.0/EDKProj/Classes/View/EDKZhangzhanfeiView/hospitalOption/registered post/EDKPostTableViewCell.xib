@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="61" id="KGk-i7-Jjw" customClass="EDKPostTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-01-5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzM-k7-KGM">
+                        <rect key="frame" x="10" y="12" width="73" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="副主任医师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvu-9Y-sQm">
+                        <rect key="frame" x="10" y="36" width="70" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期五/上午" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uie-dZ-GdK">
+                        <rect key="frame" x="142" y="10" width="91" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥9.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcN-s1-dDm">
+                        <rect key="frame" x="112" y="36" width="38" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="号源剩余:12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcr-iH-SsR">
+                        <rect key="frame" x="185" y="36" width="75" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2F-HS-fIk">
+                        <rect key="frame" x="280" y="11" width="75" height="39"/>
+                        <state key="normal" title="可预约" backgroundImage="可预约"/>
+                        <connections>
+                            <action selector="InfoBtnClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="oc1-1t-Pl2"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="mvu-9Y-sQm" firstAttribute="top" secondItem="DzM-k7-KGM" secondAttribute="bottom" constant="6" id="0gr-s0-JuF"/>
+                    <constraint firstAttribute="trailing" secondItem="h2F-HS-fIk" secondAttribute="trailing" constant="20" id="1eX-wK-CNf"/>
+                    <constraint firstItem="mvu-9Y-sQm" firstAttribute="leading" secondItem="DzM-k7-KGM" secondAttribute="leading" id="9Xx-mO-NFQ"/>
+                    <constraint firstItem="uie-dZ-GdK" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9on-Dl-6Fa"/>
+                    <constraint firstItem="kcN-s1-dDm" firstAttribute="leading" secondItem="mvu-9Y-sQm" secondAttribute="trailing" constant="32" id="CIB-W7-Bnn"/>
+                    <constraint firstItem="kcN-s1-dDm" firstAttribute="centerY" secondItem="mvu-9Y-sQm" secondAttribute="centerY" id="CkO-5H-Nml"/>
+                    <constraint firstItem="dcr-iH-SsR" firstAttribute="leading" secondItem="kcN-s1-dDm" secondAttribute="trailing" constant="35" id="Fi4-NR-v1u"/>
+                    <constraint firstItem="h2F-HS-fIk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="OGk-F8-X0u"/>
+                    <constraint firstItem="uie-dZ-GdK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="WhJ-EL-Bee"/>
+                    <constraint firstItem="DzM-k7-KGM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="by8-62-C5W"/>
+                    <constraint firstItem="DzM-k7-KGM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="e3S-VN-iAA"/>
+                    <constraint firstItem="dcr-iH-SsR" firstAttribute="centerY" secondItem="kcN-s1-dDm" secondAttribute="centerY" id="vmf-t4-ih3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="DzM-k7-KGM" id="mR5-Gd-mYs"/>
+            </connections>
+            <point key="canvasLocation" x="330.5" y="254.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="可预约" width="75" height="39"/>
+    </resources>
+</document>
